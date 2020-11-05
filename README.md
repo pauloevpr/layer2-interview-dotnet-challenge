@@ -56,7 +56,7 @@ You are required to implement a few backend elements that would typically be par
 
 To be successful, your implementation must follow a typical Domain-Driven Design architecture:
 
-https://res.cloudinary.com/practicaldev/image/fetch/s--sWdyI1q4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/dhti2v0e1smn055tages.png
+![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--sWdyI1q4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/dhti2v0e1smn055tages.png "DDD Architecture")
 
 You are not required to implemented all the components and layers of this architecture. Only the following elements are required to be implemented:
  
