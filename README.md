@@ -2,7 +2,7 @@
 
 This repository is part of Layer2's hiring process and it was designed to asses a candidate's abilities to implement Domain-Driven Design techniques using .NET Core technologies.
 
-This depository provides a sample .NET solution with a few empty projects where candidates will be adding their implementation following the instructions coming next. As a candidate, please clone this repository and use it as a starting point for your implementation.
+This repository provides a sample .NET solution with a few empty projects where candidates will be adding their implementation following the instructions coming next. As a candidate, please clone this repository and use it as a starting point for your implementation.
 
 ## Overview
 
@@ -32,15 +32,15 @@ Users can add new milestones to a Project Scope, remove milestones from a Projec
 
 **Start Date**
 
-The start date is automatically calculated based on the milestones - the start date of the earliest milestone will determine the start date the Project Schedule.
+The start date is automatically calculated based on the milestones - the start date of the earliest milestone will determine the start date of the Project Schedule.
 
-If not milestones are present, the Start Date should be blank to indicate that the Project Schedule has not yet been defined.
+If no milestones are present, the Start Date should be blank to indicate that the Project Schedule has not yet been defined.
 
 **End Date**
 
-The end date is automatically calculated based on the milestones - the end date of the last milestone will determine the end date the Project Schedule.
+The end date is automatically calculated based on the milestones - the end date of the last milestone will determine the end date of the Project Schedule.
 
-If not milestones are present, the End Date should be blank to indicate that the Project Schedule has not yet been defined.
+If no milestones are present, the End Date should be blank to indicate that the Project Schedule has not yet been defined.
 
 **Completion**
  
@@ -58,7 +58,7 @@ To be successful, your implementation must follow a typical Domain-Driven Design
 
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--sWdyI1q4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/dhti2v0e1smn055tages.png "DDD Architecture")
 
-You are not required to implemented all the components and layers of this architecture. Only the following elements are required to be implemented:
+You are not required to implement all the components and layers of this architecture. Only the following elements are required to be implemented:
  
  * **Domain Layer**: Entities and Unit Tests
  * **Persistence Layer**: DbContext and Entities Mapping (Using Entity Framework Core)
@@ -68,7 +68,7 @@ Please make sure your projects use either .NET Core 3.1 or .NET Standard 2.1.
 ### Domain Layer
 
 #### Entities 
-As candidate you are expected to implement rich and testable domain entities that handle all the core business logic. To be successful in this assessment, your domain entities implementation must be guided by Domain-Drive Design techniques such as rich-persistence-ignorant entities, aggregates and value objects.
+As a candidate you are expected to implement rich and testable domain entities that handle all the core business logic. To be successful in this assessment, your domain entities implementation must be guided by Domain-Drive Design techniques such as rich-persistence-ignorant entities, aggregates and value objects.
 
 The sample solution contains a project named **Layer2.Domain**. Please use this project to add the source code for your domain implementation. 
 
@@ -79,11 +79,11 @@ Please use the project **Layer2.Domain.Tests** to add the source code for your u
 
 ### Persistence Layer
 
-You are required to implement your persistence layer using Entity Framework Core. You don't need to implement a full persistence layer, only the following elements are required:
+You are required to implement your persistence layer using Entity Framework Core. You don't need to implement a full persistence layer, only the following elements:
 
 * DbContext: With DbSets for each of your entities
 * Entities Mapping: To map your entities to the database using EF Core's Fluent API.
 
-Consider PostgreSQL as your database. Please make sure you use version Entity Framework Core 3.1 or higher.
+Consider PostgreSQL as your database. Please make sure you use Entity Framework Core 3.1 or higher.
 
 
